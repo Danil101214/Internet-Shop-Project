@@ -6,13 +6,12 @@ import {CreateShoeSlice} from '../Redux/Slice/CreateShoeSlice'
 import { ShoeSlice } from '../Redux/Slice/ShoeSlices'
 import { ShopSlice } from '../Redux/Slice/ShopSlices'
 
-export const shopFetch = (page = 1, length = 20) => {
+export const shopFetch = () => {
     return async (dispatch) => {
         try {
             dispatch(ShopSlice.actions.fetchLoading())
-            const response = await axios.get(`https://api.escuelajs.co/api/v1/products/`, {params: page, length})
+            const response = await axios.get(`https://api.escuelajs.co/api/v1/products/`)
            // const top = await axios.post('https://api.storerestapi.com/products', data)  
-            console.log(response.data)
             dispatch(ShopSlice.actions.fetchSuccess({
                 shop: response.data,
                 length: response.data.length,
