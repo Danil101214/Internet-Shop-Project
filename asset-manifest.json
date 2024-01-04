@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Internet-Shop-Project/static/css/main.f7dcec06.css",
+    "main.js": "/Internet-Shop-Project/static/js/main.9b7eacb3.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Internet-Shop-Project/static/js/787.28cb0dcd.chunk.js",
+    "static/media/amazonBottom.jpeg": "/Internet-Shop-Project/static/media/amazonBottom.35ebb49cfa963038c50c.jpeg",
+    "static/media/amazonTop.jpeg": "/Internet-Shop-Project/static/media/amazonTop.3cc5b111022514522ba9.jpeg",
+    "static/media/amazon-logo.png": "/Internet-Shop-Project/static/media/amazon-logo.e8b26fe6488154c86a4b.png",
+    "static/media/amazon.jpeg": "/Internet-Shop-Project/static/media/amazon.da2b001ad8433ba3d02c.jpeg",
+    "static/media/amazon-logo2.png": "/Internet-Shop-Project/static/media/amazon-logo2.097f9e17920f06d65ff0.png",
+    "static/media/logo.svg": "/Internet-Shop-Project/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Internet-Shop-Project/index.html",
+    "main.f7dcec06.css.map": "/Internet-Shop-Project/static/css/main.f7dcec06.css.map",
+    "main.9b7eacb3.js.map": "/Internet-Shop-Project/static/js/main.9b7eacb3.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Internet-Shop-Project/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7dcec06.css",
+    "static/js/main.9b7eacb3.js"
+  ]
+}
