@@ -1,0 +1,27 @@
+.Create__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.blockTop {
+  display: flex;
+  flex-direction: column;
+}
+
+.formTop {
+  border: 2px solid gray;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+@media (max-width: 504px) {
+  .formTop {
+    width: 100%;
+  }
+  .input2 {
+    max-width: 100%;
+  }
+}/*# sourceMappingURL=Style.css.map */
